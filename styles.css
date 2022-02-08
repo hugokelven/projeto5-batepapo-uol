@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 80px;
+    padding: 0 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px 0px #0000000D;
+}
+header img:first-child {
+    height: 50px;
+}
+header img:nth-child(2) {
+    height: 30px;
+}
+
+main {
+    padding-top: 26px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F3;
+}
+main span {
+    width: 100vw;
+    height: 40px;
+    margin: 4px 0;
+    padding: 0 9px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+.mensagem__usuario-entrou {
+    background-color: #DCDCDC;
+}
+.mensagem__privada {
+    background-color: #FFDEDE;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 80px;
+    padding: 0 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -4px 6px 0px #0000000D;
+}
+footer input {
+    height: 30px;
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+    border: none;
+}
