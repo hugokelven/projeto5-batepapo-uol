@@ -15,16 +15,22 @@
         <img src="icons/persons.svg" alt="Usuário">
     </header>
 
-    <main>
-        <span class="mensagem__usuario-entrou">(09:21:45)  João  entra na sala...</span>
-        <span class="mensagem">(09:22:28)  João para Todos:  Bom dia</span>
-        <span class="mensagem__privada">(09:22:48)  João reservadamente para Maria:  Oi gatinha quer tc?</span>
-    </main>
+    <!-- chat -->
+    <main></main>
+
+    <div class="fundo-escuro escondido"></div>
+
+    <div class="error-400 escondido">
+        <h3>Error 400</h3>
+        <p>Nome de usuário escolhido já está em uso. Por favor, escolha outro nome.</p>
+    </div>
 
     <footer>
         <input type="text" placeholder="Escreva aqui...">
-        <img src="icons/paper-plane.svg" alt="Enviar Mensagem">
+        <img src="icons/paper-plane.svg" alt="Enviar Mensagem" onclick="enviarMensagem()">
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
